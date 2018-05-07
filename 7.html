@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>如梦令</title>
+        <style>
+			body,h2,h4,p,dl,dd,ul{
+				margin: 0;
+				padding: 0;
+				color:#0f0f0f;
+				font-size:12px;
+			}
+			h4{
+				font-weight:normal;
+			}
+			ul{
+				list-style: none;
+			}
+			em{
+				font-style: normal;
+			}
+			a{
+				text-decoration: none;
+				color: #1C5280;
+			}
+			body{
+				background:#C8C8C8;
+			}
+			.clearfix::after{
+				content: '';
+				display: block;
+				clear: both;
+			}
+			.box{
+				margin:10px auto;
+				background:#F3F1E4;
+				width:640px;
+				padding: 4px;
+			}
+			.box h2{
+				font-size: 24px;
+				line-height: 52px;
+				font-family: 微软雅黑;
+			}
+			.box dl{
+				float: left;
+				line-height:18px;
+			}
+			.box dt{
+				float: left;
+				color: #606060;
+			}
+			.box .text{
+				float: none;
+			}
+			.box p{
+				font-size:14px;
+				line-height:28px;
+			}
+			.box .pf{
+				float: right;
+				width:150px;
+				margin-right: 10px;
+			}
+			.box .pf .fs{				
+				color: #5F5F5F;
+				line-height: 26px;
+			}
+			.box .pf .fs em{
+				color:#FC0000;
+				margin-left:2px;
+			}
+			.box .pf li{				
+				padding-left: 50px;
+				background: no-repeat left;
+				height: 14px;
+				margin-bottom: 3px;
+			}
+			.box .pf .s5{
+				background-image:url("images/rml-star5.png");
+			}
+			.box .pf .s4{
+				background-image:url("images/rml-star4.png");
+			}
+			.box .pf .s3{
+				background-image:url("images/rml-star3.png");
+			}
+			.box .pf .s2{
+				background-image:url("images/rml-star2.png");
+			}
+			.box .pf .s1{
+				background-image:url("images/rml-star1.png");
+			}
+			.box .pf li div{
+				background:#F1CCB1;
+				height:14px;
+			}
+			.box .pf li .p77{
+				width:77%;
+			}			
+			.box .pf li .p8 {
+				width: 8%;
+			}
+			.box .pf li .p5 {
+				width: 5%;
+			}
+			.box .pf li .p4 {
+				width: 4%;
+			}
+			.box .pf li .p14 {
+				width: 14%;
+			}
+			.box .action{
+				font-size:0;
+				line-height:48px;
+			}
+			.box .action a,.box .action span{
+				font-size:12px;
+			}
+			.box .action .x{				
+				padding-left: 14px;
+				margin-right: 11px;
+				background: no-repeat left;
+			}
+			.box .action .fy{
+				background-image:url("images/rml-fy.png");
+			}
+			.box .action .sx{
+				background-image:url("images/rml-sx.png");
+			}
+			.box .action .jc{
+				background-image:url("images/rml-jc.png");
+			}
+			.box .action .sc{
+				background-image:url("images/rml-sc.png");
+			}
+			.box .action .jia{				
+				margin-left: 18px;
+				padding-left: 18px;
+				margin-right: 14px;
+				background: url("images/rml-jia.png") no-repeat left;
+				color: #0F0F0F;
+				display: inline-block;
+			}
+			.box .action .p em{
+				display: inline-block;
+				width: 15px;
+				height: 16px;
+				background: url("images/rml-star11.png");
+				position: relative;
+				top: 2px;
+				cursor: pointer;
+			}
+			.box .action .p em.s2{
+				background-image:url("images/rml-star12.png");
+			}
+			.box .action .tj{				
+				color: #AE0816;
+				margin-left: 4px;
+			}
+			.box .cankao .f{
+				border-bottom:1px dashed #000;
+				padding-bottom: 10px;
+			}
+			.box .cankao .f p{
+				width: 60px;
+				height:20px;
+				background:#73AAD1;
+				color:#fff;
+				font-size: 12px;
+				text-align: center;
+				line-height:20px;
+				font-weight: bold;
+				float: left;
+			}
+			.box .cankao .f a{
+				float: right;
+				padding-left: 14px;
+				background:url("images/rml-fy.png") left center no-repeat;
+			}
+			.box .text2{
+				float: left;
+			}
+			.box .text2 h4{
+				padding-top: 14px;
+				line-height:24px;
+				font-size:14px;
+				text-decoration: underline;
+				color:#1C517B;
+			}
+			.box .text2 p{
+				font-size:12px;
+				color:#0F0F0F;
+				line-height:20px;
+				background:url("images/rml-sanjiao.png") right bottom no-repeat;
+			}
+        </style>
+    </head>
+    <body>
+    	<div class="box">
+    		<h2>如梦令&middot;常记溪亭日暮</h2>
+    		<div class="clearfix">    			
+				<dl>
+					<dt>朝代：</dt>
+					<dd>宋代</dd>
+					<dt>作者：</dt>
+					<dd><a href="###">李清照</a></dd>
+					<dt class="text">原文：</dt>
+					<dd>
+						<p>常记溪亭日暮，沉醉不知归路。</p>
+						<p>常记溪亭日暮，沉醉不知归路。</p>
+						<p>常记溪亭日暮，沉醉不知归路。</p>
+					</dd>
+				</dl>
+				<div class="pf">
+					<div class="fs">(4441人评分)<em>8.4</em></div>
+					<ul>
+						<li class="s5">
+							<div class="p77"></div>
+						</li>
+						<li class="s4">
+							<div class="p8"></div>
+						</li>
+						<li class="s3">
+							<div class="p5"></div>
+						</li>
+						<li class="s2">
+							<div class="p4"></div>
+						</li>
+						<li class="s1">
+							<div class="p14"></div>
+						</li>
+					</ul>					
+				</div>
+    		</div>
+			<div class="action">				
+				<a href="###" class="x fy">写翻译</a>
+				<a href="###" class="x sx">写赏析</a>
+				<a href="###" class="x jc">纠错</a>
+				<a href="###" class="x sc">收藏</a>
+				<a href="###" class="jia">分享</a>
+				<span class="p">评分：<em></em><em></em><em></em><em></em><em class="s2"></em></span>
+				<a href="###" class="tj">推荐</a>
+			</div>
+			<div class="cankao clearfix">
+				<div class="f clearfix">
+					<p>参考翻译</p><a href="###" class=" fy">写翻译</a>
+				</div>
+				<div class="text2">
+					<h4>译文及翻译</h4>
+					<p>译文一应是常常想起一次郊游，一玩就到日暮时分，沉醉在其中不想回家。译文一应是常常想起一次郊游，一玩就到日暮时分，沉醉在其中不想回家。译文一应是常常想起一次郊游，一玩就到日暮时分，沉醉在其中不想回家。译文一应是常常想起一次郊游，一玩就到日暮时分，沉醉在其中不想回家。</p>
+				</div>
+			</div>
+    	</div>
+    </body>
+</html>
